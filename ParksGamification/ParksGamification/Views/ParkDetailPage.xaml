@@ -7,7 +7,7 @@
              Title="{Binding Name}">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="{Binding Name}" TextColor="Black" />
+            <Label Text="{Binding Name}" TextColor="Black"  />
             <Label Text="{Binding Description}"
         </StackLayout>
     </ContentPage.Content>

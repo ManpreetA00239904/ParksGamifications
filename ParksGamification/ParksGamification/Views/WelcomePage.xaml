@@ -8,6 +8,13 @@
                    BackgroundColor="Blue"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Name : Karanbir"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                   BackgroundColor="Yellow"/>
+            <Label Text="Park Gamification app provides you the a Brief Description about each and every Park and helps you to figure out which parks suites you the best as per the your requirement,Let a park ranger be your guide! The Park Gamification is the brand new official app for all parks."
+                   HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
 
         </StackLayout>
     </ContentPage.Content>
