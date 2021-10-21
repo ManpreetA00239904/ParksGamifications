@@ -5,8 +5,10 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome"
+                   BackgroundColor="Blue"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

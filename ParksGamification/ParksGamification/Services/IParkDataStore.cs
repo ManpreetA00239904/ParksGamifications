@@ -1,10 +1,12 @@
-﻿using System;
+﻿using ParksGamification.Models;
 using System.Collections.Generic;
-using System.Text;
+using System.Threading.Tasks;
 
 namespace ParksGamification.Services
 {
-    class IParkDataStore
+    public interface IParkDataStore<T>
     {
+        Task<IEnumerable<Park>> GetParks();
+        Task<Park> GetPark(int parkId);
     }
 }

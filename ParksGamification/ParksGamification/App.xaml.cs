@@ -1,5 +1,5 @@
 ﻿using Xamarin.Forms;
-
+using ParksGamification.Services;
 namespace ParksGamification
 {
     public partial class App : Application
@@ -8,7 +8,7 @@ namespace ParksGamification
         public App()
         {
             InitializeComponent();
-
+            DependencyService.Register<ParkDataStore>();
             MainPage = new AppShell();
         }
 
